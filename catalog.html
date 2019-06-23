@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+<<<<<<< HEAD
   <head>
     <meta charset="utf-8">
     <title></title>
@@ -8,7 +9,7 @@
     <header class="main-header">
       <nav class="main-navigation">
         <a class="main-header-logo" href="index.html">
-          <img src="img/logo.svg" alt="Логотип Нёрдс">
+          <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип Нёрдс">
         </a>
         <ul class="site-navigation">
           <li><a href="">Студия</a></li>
@@ -16,8 +17,9 @@
           <li class="site-navigation-current"><a href="">Магазин</a></li>
           <li><a href="">Контакты</a></li>
         </ul>
-        <ul class="user-navigation">
-          <li class="login-link">Вход</li>
+        <ul class="basket">
+          <li><img src="img/basket-icon.svg" alt="Корзина"></li>
+          <li class="basket-link"><a href="">Корзина</a></li>
         </ul>
       </nav>
     </header>
@@ -25,6 +27,7 @@
       <h1 class="page-title">Магазин готовых шаблонов</h1>
       <section class="filters">
         <h2 class="visually-hidden">Фильтр продукции</h2>
+        <!--Не понял по поводу фильтра продукции.Ведь это же фома будет,почему тогда в задании предлагают для нее оформить изображения?-->
         <!-- Здесь будет форма -->
       </section>
       <section class="catalog">
@@ -33,37 +36,37 @@
           <li class="catalog-item">
             <h3>Sedona</h3>
             <p>
-              <img src="img/product-1.jpg" alt="Sedona">
+              <img src="img/img-sedona.png" alt="Sedona">
             </p>
           </li>
           <li class="catalog-item">
             <h3>Pink</h3>
             <p>
-              <img src="img/product-2.jpg" alt="Pink">
+              <img src="img/img-pink.png" alt="Pink">
             </p>
           </li>
           <li class="catalog-item">
             <h3>Borodinski</h3>
             <p>
-              <img src="img/product-3.jpg" alt="Borodinski">
+              <img src="img/img-barbershop.png" alt="Borodinski">
             </p>
           </li>
           <li class="catalog-item">
             <h3>Mishka</h3>
             <p>
-              <img src="img/product-4.jpg" alt="Mishka">
+              <img src="img/img-mishka.png" alt="Mishka">
             </p>
           </li>
           <li class="catalog-item">
             <h3>A+</h3>
             <p>
-              <img src="img/product-5.jpg" alt="A+">
+              <img src="img/img-aplus.png" alt="A+">
             </p>
           </li>
           <li class="catalog-item">
             <h3>Кваст</h3>
             <p>
-              <img src="img/product-6.jpg" alt="Кваст">
+              <img src="img/img-kvast.png" alt="Кваст">
             </p>
           </li>
         </ul>
@@ -78,13 +81,80 @@
     <footer class="main-footer">
       <div class="footer-social">
         <ul>
-          <li><a class="social-button" href="#">Вконтакте</a></li>
-          <li><a class="social-button" href="#">Фейсбук</a></li>
-          <li><a class="social-button" href="#">Инстаграм</a></li>
+          <li><a class="social-button" href="#"><img src="img/vk-icon.svg" alt="Вконтакте"></a></li>
+          <li><a class="social-button" href="#"><img src="img/fb-icon.svg" alt="Фейсбук"></a></li>
+          <li><a class="social-button" href="#"><img src="img/insta-icon.svg" alt="Инстаграм"></a></li>
         </ul>
       </div>
+=======
+<head>
+  <meta charset="utf-8">
+  <title>Каталог Дизайн-студия Нёрдс</title>
+</head>
+<body>
+  <header class="main-header">
+    <nav class="main-navigation">
+      <a class="main-header-logo" href="index.html">
+        <img src="img/logo.svg" alt="Логотип Нёрдс">
+      </a>
+      <ul class="site-navigation">
+        <li><a href="">Студия</a></li>
+        <li><a href="">Клиенты</a></li>
+        <li class="site-navigation-current"><a href="">Магазин</a></li>
+        <li><a href="">Контакты</a></li>
+      </ul>
+      <ul class="user-navigation">
+        <li class="login-link">Вход</li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container">
+    <h1 class="page-title">Магазин готовых шаблонов</h1>
+    <section class="filters">
+      <h2 class="visually-hidden">Фильтр продукции</h2>
+      <!-- Здесь будет форма -->
+    </section>
+    <section class="catalog">
+      <h2 class="visually-hidden">Каталог готовых шаблонов</h2>
+      <ul class="catalog-list">
+        <li class="catalog-item">
+          <img src="img/product-1.jpg" alt="Sedona">
+        </li>
+        <li class="catalog-item">
+          <img src="img/product-2.jpg" alt="Pink">
+        </li>
+        <li class="catalog-item">
+          <img src="img/product-3.jpg" alt="Borodinski">
+        </li>
+        <li class="catalog-item">
+          <img src="img/product-4.jpg" alt="Mishka">
+        </li>
+        <li class="catalog-item">
+          <img src="img/product-5.jpg" alt="A+">
+        </li>
+        <li class="catalog-item">
+          <img src="img/product-6.jpg" alt="Кваст">
+        </li>
+      </ul>
+    </section>
+    <ul class="pagination-list">
+      <li class="pagination-item pagination-item-current"><a>1</a></li>
+      <li class="pagination-item"><a href="#">2</a></li>
+      <li class="pagination-item"><a href="#">3</a></li>
+      <li class="pagination-item"><a href="#">Следующая</a></li>
+    </ul>
+  </main>
+  <footer class="main-footer">
+    <ul class="footer-social">
+      <li><a class="social-button" href="#">Вконтакте</a></li>
+      <li><a class="social-button" href="#">Фейсбук</a></li>
+      <li><a class="social-button" href="#">Инстаграм</a></li>
+    </ul>
+    <div class="sale">
+>>>>>>> 61bc366800f30ab89c3eb4bf77e08c96f4d17b28
       <b>Давайте дружить, это выгодно!</b>
       <p>Скидка 10% для друзей из социальных сетей.</p>
-    </footer>
-  </body>
+    </div>
+  </footer>
+</body>
 </html>
